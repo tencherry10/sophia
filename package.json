@@ -1,0 +1,17 @@
+{
+  "name": "sophia",
+  "version": "2.1.0",
+  "repo": "tencherry10/sophia",
+  "description": "sophia packaged for clib",
+  "keywords": ["database"],
+  "license": "MIT",
+  "prepare": "make",
+  "prepared_src": [
+    "libsophia.a",
+    "libsophia.so",
+    "libsophia.so.2.1",
+    "libsophia.so.2.1.1",
+    "sophia.h"
+  ],
+  "src": []
+}

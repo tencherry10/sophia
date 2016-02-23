@@ -40,6 +40,7 @@ sophia.o: sophia.c sophia.h
 libsophia.a: sophia.o
 	@echo "ar libsophia.a"
 	@ar crs libsophia.a sophia.o
+	@strip -s libsophia.a
 libsophia.so: sophia.o
 	@echo "ld libsophia.so"
 	@$(CC) sophia.o $(SOPHIA_LDFLAGS) -o libsophia.so.2.1.1
